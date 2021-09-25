@@ -1,0 +1,17 @@
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: AutographyRegular;
+  src: url(./fonts/Autography.otf);
+}
+.poppins-regular {
+  font-family: PoppinsRegular !important;
+}
+
+.autography {
+  font-family: AutographyRegular !important;
+  color: #ffffff !important;
+  font-size: 52px !important;
+}
