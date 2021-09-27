@@ -15,33 +15,40 @@ const HeroSectionComp = () => {
 
   return (
     <div className={classes.heroSection}>
-      <Grid container style={{ paddingTop: '2em' }}>
+      <Grid container >
         <Grid item xs={12}>
           <HeaderComp />
         </Grid>
-        <Grid item xs={6}>
-          <img alt="teacher Avatar" src={teacherAvatar} style={{ margin: '2em 0 0 26em' }} />
-        </Grid>
-        <Grid item xs={6}>
-          <div style={{ marginTop: '11em' }}>
-            <div>
-              <Typography className={`${classes.headerText} autography`}> Welcome To  </Typography>
-              <Typography className={`${classes.headerText} autography`}> Happy Teacher Happy Life </Typography>
-            </div>
-            <div style={{ width: '27em' }}>
-              <Typography className={`${classes.subText} poppins-regular`}>
-                Feeling overwhelmed or exhausted from school taking over your whole life? </Typography><br />
-              <Typography className={`${classes.subText} poppins-regular`}>
-                Ready to get back to health, happiness,
-                and the joy of teaching? </Typography>
-              <Typography className={`${classes.subText} poppins-regular`}>
-                You have come to the perfect place. </Typography>
-            </div>
-            <ButtonComp style={{ marginTop:'2em' }} className="poppins-regular" text="Book a Call" />
+        
+        <Grid item xs={12} md={5} lg={5} xl={5} >
+        <div className={classes.heroSectionImg}>
+          <img  alt="teacher Avatar" src={teacherAvatar} width="50%" height="60%"/>
           </div>
         </Grid>
+
+     
+        
+        <Grid item xs={12} md={7} lg={7} xl={7}>
+          <div className={classes.heroSectionText}>
+            <div>
+              <Typography className={`${classes.headerText} autography`}> Welcome To <br /> Happy Teacher Happy Life  </Typography>
+            </div>
+            <div >
+              <Typography className={`${classes.subText} poppins-regular`}>
+                Feeling overwhelmed or exhausted fromb<br/>school taking over your whole life?<br /><br/>              
+                Ready to get back to health, happiness, and<br/> the joy of teaching?<br/>           
+                You have come to the perfect place.<br/><br/> </Typography>
+            </div>
+            <ButtonComp className="poppins-regular" text="Book a Call" style={{margin:"0 0 0 3%"}} />
+   
+          </div>
+
+        </Grid>
+       
       </Grid>
+  
     </div>
+
   )
 }
 

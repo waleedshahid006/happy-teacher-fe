@@ -2,6 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
   btn: {
+    width:"max-content",
     backgroundColor: "#FFFFFF",
     color: "#2D424A",
     height: "41px",

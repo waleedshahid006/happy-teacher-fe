@@ -6,7 +6,7 @@ const useStyles = makeStyles({
     fontSize: '20px !important',
     fontStyle: 'normal',
     fontWeight: 'normal !important',
-    margin: '0 0.7em 0 0.7em !important',
+    marginRight: '2%',
   }
 });
 
