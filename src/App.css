@@ -6,12 +6,26 @@
   font-family: AutographyRegular;
   src: url(./fonts/Autography.otf);
 }
+@font-face {
+  font-family: PoppinsMedium;
+  src: url(./fonts/Poppins-Medium.ttf);
+}
 .poppins-regular {
   font-family: PoppinsRegular !important;
 }
 
+.poppins-medium {
+  font-family: PoppinsMedium !important;
+}
+
 .autography {
   font-family: AutographyRegular !important;
-  color: #ffffff !important;
-  /* font-size: 52px !important; */
+}
+.white-pattern-bg {
+  background-image: url(./assets/secondSectionBg.png);
+  /* background-size: 100% 100%; */
+  height: 4400px;
+  width: 100%;
+  /* background-repeat: no-repeat; */
+  margin-top: 23%;
 }

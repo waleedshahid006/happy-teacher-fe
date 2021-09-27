@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from '@material-ui/core';
 import useStyles from "./ButtonCompStyle";
 
-const ButtonComp = ({ text, style, className }) => {
+const ButtonComp = ({ text, style, className, white }) => {
 
   const classes = useStyles();
 
@@ -10,7 +10,7 @@ const ButtonComp = ({ text, style, className }) => {
     <Button
       variant="outlined"
       style={style}
-      className={`${classes.btn} ${className}`}>
+      className={white ? `${classes.whiteBtn} ${className} ` : `${classes.greenBtn} ${className}`}>
       {text}
     </Button>
   )
