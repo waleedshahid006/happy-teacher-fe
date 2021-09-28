@@ -10,8 +10,8 @@ const FirstSectionComp = () => {
 
   return (
     <div className={classes.root}>
-      <img style={{ position:'absolute', top:'53%', left:'-120px' }} alt="line" src={line} />
-      <div style={{ width: '60%', marginTop: '15%' }}>
+      <img className={classes.line} alt="line" src={line} />
+      <div className={classes.contentDiv}>
         <Typography className={`${classes.heading} autography`}>
           What's your level of educator emotional intelligence?
         </Typography>
@@ -20,8 +20,8 @@ const FirstSectionComp = () => {
           Plus get ready for <br /> life-changing transformations — I’m going to give you tips to boost your energy,
           simplify your life, improve health, <br /> increase happiness, and bring back the joy of teaching.
         </Typography><br /><br />
-        <Link style={{ textDecoration: 'none' }} href="https://quiz.tryinteract.com/#/612f98b39d4f4e0018b77db2">
-          <ButtonComp className="poppins-regular" text="Take the Quiz" style={{ padding: '10px 30px' }} />
+        <Link className={classes.link} href="https://quiz.tryinteract.com/#/612f98b39d4f4e0018b77db2">
+          <ButtonComp className={`${classes.btn} poppins-regular`} text="Take the Quiz" />
         </Link>
       </div>
     </div>

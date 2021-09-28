@@ -9,10 +9,10 @@ const SecondSectionComp = () => {
   const classes = useStyles();
 
   return (
-    <div style={{ paddingTop: '15%' }}>
-      <Grid container>
-        <Grid item xs={7}>
-          <div style={{ width: 'max-content', margin: 'auto', paddingLeft:'30%' }}>
+    <div className={classes.root}>
+      <Grid container >
+        <Grid item xs={12} md={7} lg={7}>
+          <div className={classes.contentDiv}>
             <Typography className={`${classes.heading} autography`}>
               Hi, I'm Lynn Hardin!
             </Typography>  <br />
@@ -31,8 +31,8 @@ const SecondSectionComp = () => {
             <ButtonComp className="poppins-regular" text="Get to know me" style={{ padding: '10px 20px' }} />
           </div>
         </Grid>
-        <Grid item xs={5}>
-          <img alt="person avatar" src={personImg} />
+        <Grid item xs={12} md={5} lg={5}>
+          <img alt="person avatar" src={personImg} className={classes.img} />
         </Grid>
       </Grid>
     </div>

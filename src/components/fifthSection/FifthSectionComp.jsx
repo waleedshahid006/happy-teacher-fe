@@ -11,7 +11,7 @@ const FifthSectionComp = () => {
   const classes = useStyles();
 
   return (
-    <div style={{ marginTop: '-8%' }}>
+    <div className={classes.root}>
       <Typography align="center" className={`${classes.mainHeading} autography`}> Imagine a Life Where </Typography>
       <CardComp
         src={person1}
@@ -29,7 +29,7 @@ const FifthSectionComp = () => {
           "Happiness and health for a teacher have 8 areas of mastery.", <br />,
           "Health, personal development, fun, romance, career, family", <br />,
           "and friends, money, and spirituality."]}
-        imgRight={true}
+        // imgRight={true}
       />
       <CardComp
         src={person3}
@@ -37,7 +37,7 @@ const FifthSectionComp = () => {
         body={["Stage 1 - Your Future - What if...?", <br />,
           "Stage 2 - Your Present - Needs, dreams, and goals (baseline).", <br />,
           "Stage 3 - Your Personal Teacher Health and Happiness Plan.", <br />,
-          "Stage 4 - Your Treasure Chest - a fully equipped health,", <br /> ,
+          "Stage 4 - Your Treasure Chest - a fully equipped health,", <br />,
           "                  relationship, and happiness toolbox.", <br />,
           "Stage 5 - Your Healthy and Happy Life."]}
       />

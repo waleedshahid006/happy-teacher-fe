@@ -11,10 +11,10 @@ const CardComp = ({ src, heading, body, imgRight }) => {
       {
         !imgRight &&
         <Grid container style={{ marginTop: '4%' }}>
-          <Grid item xs={5} style={{ textAlign: 'end' }}>
-            <img alt="person" src={src} />
+          <Grid item xs={12} md={5} lg={5} className={classes.imgGrid}>
+            <img alt="person" src={src} className={classes.img} />
           </Grid>
-          <Grid item xs={7} style={{ padding: '4% 0 0 3%' }}>
+          <Grid item xs={12} md={7} lg={7} className={classes.contentGrid}>
             <Typography className={`${classes.heading} poppins-medium`}>{heading}</Typography><br />
             <Typography className={`${classes.body} poppins-regular`}>{body}</Typography>
           </Grid>
@@ -23,14 +23,14 @@ const CardComp = ({ src, heading, body, imgRight }) => {
       {
         imgRight &&
         <Grid container style={{ marginTop: '4%' }}>
-          <Grid item xs={6} style={{ padding: '4% 0 0 3%' }}>
-            <div style={{ marginLeft: '42%', width: 'fit-content' }}>
+          <Grid item xs={12} md={6} lg={6} className={classes.contentGrid}>
+            <div className={classes.rightContentDiv}>
               <Typography className={`${classes.heading} poppins-medium`}>{heading}</Typography><br />
               <Typography className={`${classes.body} poppins-regular`}>{body}</Typography>
             </div>
           </Grid>
-          <Grid item xs={6}>
-            <img alt="person" src={src} />
+          <Grid item xs={12} md={6} lg={6}>
+            <img alt="person" src={src} className={classes.img} />
           </Grid>
         </Grid>
       }

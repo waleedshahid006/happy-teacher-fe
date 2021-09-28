@@ -9,21 +9,21 @@ const FourthSectionComp = () => {
 
   return (
     <div className={classes.root}>
-      <div style={{ display: 'flex' }}>
-        <div style={{ display: 'flex', flexDirection: 'column', flex: '0.6' }}>
-          <div style={{ width: 'fit-content', marginLeft: '42%' }}>
+      <div className={classes.flexDiv}>
+        <div className={classes.mainContentDiv}>
+          <div className={classes.contentDiv}>
             <Typography className={`${classes.heading} autography`}>
               The Teacher Daily Planner
             </Typography><br />
             <Typography className={`${classes.body} poppins-regular`}>
               Use this simple one-page planner to create a day that is healthy and happy <br />
-              by writing your thoughts, goals, and to-dos.
+              by writing your thoughts, goals, ands to-dos.
             </Typography>
           </div>
         </div>
-        <div style={{ flex: '0.4', padding: '2% 0 0 1%' }}>
-          <Link style={{ textDecoration: 'none' }} href="https://lynnhardin.s3.us-west-1.amazonaws.com/Grading+Made+Easier.pdf">
-            <ButtonComp className="poppins-regular" text="Download the guide" style={{ marginLeft: '10%', backgroundColor: '#36312E' }} />
+        <div className={classes.btnDiv}>
+          <Link className={classes.link} href="https://lynnhardin.s3.us-west-1.amazonaws.com/Grading+Made+Easier.pdf">
+            <ButtonComp className={`${classes.btn} poppins-regular`} text="Download the guide" />
           </Link>
         </div>
       </div>

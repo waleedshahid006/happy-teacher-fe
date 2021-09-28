@@ -12,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
     zIndex: "1",
     [theme.breakpoints.down("sm")]: {
       backgroundSize: "initial",
+      height: "initial",
     },
   },
   heroSectionImgDiv: {
@@ -39,6 +40,10 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "left",
+    [theme.breakpoints.down("sm")]: {
+      height: "initial",
+      paddingBottom: "8%",
+    },
   },
 
   headerText: {
@@ -56,6 +61,11 @@ const useStyles = makeStyles((theme) => ({
     color: "#ffffff",
     fontSize: "calc(100% + 0.1vw + 0.1vh )",
     margin: "0 0 0 3%",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "calc(80% + 0.1vw + 0.1vh )",
+      textAlign: "center",
+      margin: "initial",
+    },
   },
   bookCallBtn: {
     margin: "0 0 0 3%",
