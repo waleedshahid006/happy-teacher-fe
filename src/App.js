@@ -9,6 +9,7 @@ import FifthSectionComp from "./components/fifthSection/FifthSectionComp";
 import SixthSectionComp from "./components/sixthSection/SixthSectionComp";
 import SeventhSectionComp from "./components/seventhSection/SeventhSectionComp";
 import EighthSectionComp from "./components/eighthSection/EighthSectionComp";
+import FooterComp from "./components/footer/FooterComp";
 
 const App = () => {
   return (
@@ -24,7 +25,7 @@ const App = () => {
       </div>
       <SeventhSectionComp />
       <EighthSectionComp />
-      {/* <div style={{ backgroundColor: "yellow", height: "300px", marginTop:'50%' }}>asd</div> */}
+      <FooterComp />
     </div>
   );
 };
