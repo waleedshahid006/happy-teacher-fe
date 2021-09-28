@@ -13,7 +13,7 @@ const EighthSectionComp = () => {
         <Typography className={`${classes.heading} autography`}> Say hello! </Typography>
         <Typography className={`${classes.body} poppins-regular`}>
           I would love to hear from you! Whether you’re a teacher, school leader, district leader, school staff remember, or
-          <br /> parent simply fill out the form or email <strong>lynn@lynnhardin.com </strong> and I’ll get back to you.
+          <br /> parent simply fill out the form or email <span className="poppins-bold">lynn@lynnhardin.com </span> and I’ll get back to you.
         </Typography>
         <br />
         <TextField

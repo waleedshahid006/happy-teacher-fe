@@ -10,7 +10,7 @@ const ButtonComp = ({ text, style, className, white }) => {
     <Button
       variant="outlined"
       style={style}
-      className={white ? `${classes.whiteBtn} ${className} ` : `${classes.greenBtn} ${className}`}>
+      className={white ? `${classes.whiteBtn} ${className} poppins-regular` : `${classes.greenBtn} ${className} poppins-regular`}>
       {text}
     </Button>
   )

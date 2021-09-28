@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography } from '@material-ui/core';
+import { Link, Typography } from '@material-ui/core';
 import useStyles from './FourthSectionCompStyle';
 import ButtonComp from '../../shared/button/ButtonComp';
 
@@ -22,7 +22,9 @@ const FourthSectionComp = () => {
           </div>
         </div>
         <div style={{ flex: '0.4', padding: '2% 0 0 1%' }}>
-          <ButtonComp className="poppins-regular" text="Download the guide" style={{ marginLeft:'10%', backgroundColor: '#36312E' }} />
+          <Link style={{ textDecoration: 'none' }} href="https://lynnhardin.s3.us-west-1.amazonaws.com/Grading+Made+Easier.pdf">
+            <ButtonComp className="poppins-regular" text="Download the guide" style={{ marginLeft: '10%', backgroundColor: '#36312E' }} />
+          </Link>
         </div>
       </div>
     </div>

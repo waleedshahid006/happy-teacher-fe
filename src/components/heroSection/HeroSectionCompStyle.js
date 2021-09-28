@@ -1,7 +1,7 @@
 import { makeStyles } from "@material-ui/core/styles";
 import bgHeroSection from "../../assets/bgHeroSection.png";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   heroSection: {
     backgroundImage: `url(${bgHeroSection})`,
     backgroundSize: "100% 100%",
@@ -10,13 +10,28 @@ const useStyles = makeStyles({
     backgroundRepeat: "no-repeat",
     position: "relative",
     zIndex: "1",
+    [theme.breakpoints.down("sm")]: {
+      backgroundSize: "initial",
+    },
   },
-  heroSectionImg: {
+  heroSectionImgDiv: {
     display: "flex",
-    // alignItems:"center",
+    paddingTop: "4%",
     justifyContent: "right",
     width: "100%",
     height: "100vh",
+    [theme.breakpoints.down("sm")]: {
+      paddingTop: "0%",
+      justifyContent: "center",
+      height: "initial",
+    },
+  },
+  heroSectionImg: {
+    width: "50%",
+    height: "50%",
+    [theme.breakpoints.down("sm")]: {
+      width: "40%",
+    },
   },
   heroSectionText: {
     width: "100%",
@@ -24,20 +39,31 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     alignItems: "left",
-    // justifyContent:"center",
   },
 
   headerText: {
     color: "#ffffff",
-    fontSize: "calc(100% + 1.6vw + 1.6vh )",
+    fontSize: "calc(100% + 1.15vw + 1.15vh )",
     margin: "9% 0 0 3%",
     lineHeight: "1.2",
+    [theme.breakpoints.down("sm")]: {
+      margin: "2% 0 0 3%",
+      textAlign: "center",
+      lineHeight: "initial",
+    },
   },
   subText: {
     color: "#ffffff",
     fontSize: "calc(100% + 0.1vw + 0.1vh )",
     margin: "0 0 0 3%",
   },
-});
+  bookCallBtn: {
+    margin: "0 0 0 3%",
+    padding: "10px 30px",
+    [theme.breakpoints.down("sm")]: {
+      margin: "0px auto",
+    },
+  },
+}));
 
 export default useStyles;

@@ -37,8 +37,8 @@ const FifthSectionComp = () => {
         body={["Stage 1 - Your Future - What if...?", <br />,
           "Stage 2 - Your Present - Needs, dreams, and goals (baseline).", <br />,
           "Stage 3 - Your Personal Teacher Health and Happiness Plan.", <br />,
-          "Stage 4 - Your Treasure Chest - a fully equipped health,", <br />,
-          "relationship, and happiness toolbox.", <br />,
+          "Stage 4 - Your Treasure Chest - a fully equipped health,", <br /> ,
+          "                  relationship, and happiness toolbox.", <br />,
           "Stage 5 - Your Healthy and Happy Life."]}
       />
     </div>

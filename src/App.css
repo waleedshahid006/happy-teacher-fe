@@ -10,6 +10,10 @@
   font-family: PoppinsMedium;
   src: url(./fonts/Poppins-Medium.ttf);
 }
+@font-face {
+  font-family: PoppinsBold;
+  src: url(./fonts/Poppins-Bold.ttf);
+}
 .poppins-regular {
   font-family: PoppinsRegular !important;
 }
@@ -18,9 +22,14 @@
   font-family: PoppinsMedium !important;
 }
 
+.poppins-bold {
+  font-family: PoppinsBold !important;
+}
+
 .autography {
   font-family: AutographyRegular !important;
 }
+
 .white-pattern-bg {
   background-image: url(./assets/secondSectionBg.png);
   /* background-size: 100% 100%; */

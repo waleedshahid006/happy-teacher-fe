@@ -28,6 +28,7 @@ const ThirdSectionComp = () => {
               "communication skills, healthy", <br />,
               "relationships, and wellness of", <br />,
               "mind and body."]}
+            link="https://www.lynnhardin.com/category/blogging/"
             btnText="Read Newest Post" />
           <CardComp
             src={handsImg}

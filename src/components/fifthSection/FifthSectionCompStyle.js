@@ -13,6 +13,7 @@ const useStyles = makeStyles({
   body: {
     color: "#36312E",
     fontSize: "calc(75% + 0.1vw + 0.1vh )",
+    whiteSpace: "pre",
   },
 });
 

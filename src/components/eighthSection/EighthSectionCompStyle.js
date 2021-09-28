@@ -34,6 +34,11 @@ const useStyles = makeStyles({
     "& .MuiOutlinedInput-root": {
       backgroundColor: "#FFFFFF",
     },
+    "& .Mui-focused":{
+      // border: "1px solid #2D424A",
+      // borderColor:'red !important'
+    },
+
   },
 });
 
