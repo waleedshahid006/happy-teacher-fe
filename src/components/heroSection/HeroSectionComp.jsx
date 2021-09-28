@@ -8,6 +8,7 @@ import "../../App.css";
 import HeaderComp from "../header/HeaderComp";
 import useStyles from './HeroSectionCompStyle';
 import ButtonComp from '../../shared/button/ButtonComp';
+import { openPopupWidget } from "react-calendly";
 
 const HeroSectionComp = () => {
 
@@ -37,7 +38,11 @@ const HeroSectionComp = () => {
                 Ready to get back to health, happiness, and<br /> the joy of teaching?<br />
                 You have come to the perfect place.<br /><br /> </Typography>
             </div>
-            <ButtonComp className={`${classes.bookCallBtn} poppins-regular`} white text="Book a Call" />
+            <ButtonComp
+              className={`${classes.bookCallBtn} poppins-regular`}
+              white
+              onClick={() => openPopupWidget({ url: "https://calendly.com/waleedshahid006" })}
+              text="Book a Call" />
           </div>
         </Grid>
       </Grid>

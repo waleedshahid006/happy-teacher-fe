@@ -23,9 +23,9 @@ const App = () => {
         <FifthSectionComp />
         <SixthSectionComp />
       </div>
-      {/* <SeventhSectionComp />
+      <SeventhSectionComp />
       <EighthSectionComp />
-      <FooterComp />  */}
+      <FooterComp />
     </div>
   );
 };

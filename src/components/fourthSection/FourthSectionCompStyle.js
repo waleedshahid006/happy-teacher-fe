@@ -1,5 +1,6 @@
 import { makeStyles } from "@material-ui/core/styles";
 import fouthSectionBg from "../../assets/fouthSectionBg.png";
+import fouthSectionBgMob from "../../assets/fouthSectionBgMob.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -11,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "42%",
     paddingTop: "20%",
     [theme.breakpoints.down("sm")]: {
+      backgroundImage: `url(${fouthSectionBgMob})`,
       backgroundSize: "initial",
       height: "initial",
       marginTop: "1000px",

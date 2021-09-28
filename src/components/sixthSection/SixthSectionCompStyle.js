@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
     width: "fit-content",
     margin: "15% 0 0 42%",
     [theme.breakpoints.down("sm")]: {
-      margin: "26% 0 0 10%",
+      margin: "30% 0 0 8%",
     },
   },
   heading: {
@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "calc(70% + 0.1vw + 0.1vh )",
     lineHeight: "1.2",
     [theme.breakpoints.down("sm")]: {
-      fontSize: "calc(60% + 0.1vw + 0.1vh )",
+      fontSize: "calc(50% + 0.1vw + 0.1vh )",
     },
   },
   btnDiv: {
@@ -63,7 +63,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   btn: {
-    marginLeft: "10%",
+    marginLeft: "8%",
     padding: "10px 35px",
     [theme.breakpoints.down("sm")]: {
       padding: "10px 15px",

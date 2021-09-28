@@ -38,3 +38,8 @@
   /* background-repeat: no-repeat; */
   margin-top: 23%;
 }
+@media screen and (max-width: 480px) {
+  .white-pattern-bg {
+    height: 3720px;
+  }
+}

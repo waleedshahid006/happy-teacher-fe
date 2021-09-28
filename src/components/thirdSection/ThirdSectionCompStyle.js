@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     position: "absolute",
     [theme.breakpoints.down("sm")]: {
       backgroundImage: `url(${thirdSectionMobBg})`,
-      height: "137%",
+      height: "1020px",
       paddingTop: "35%",
       backgroundSize: "initial",
     },
