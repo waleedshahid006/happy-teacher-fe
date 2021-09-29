@@ -1,2 +1,2 @@
-/user/* https://happy-teacher-bk.herokuapp.com/user/:splat 200
+/api/* https://happy-teacher-bk.herokuapp.com/api/:splat 200
 /* /index.html 200
