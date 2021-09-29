@@ -68,8 +68,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   bookCallBtn: {
-    margin: "0 0 0 3%",
-    padding: "10px 30px",
+    margin: "0 0 0 3% !important",
+    padding: "10px 30px !important",
     [theme.breakpoints.down("sm")]: {
       margin: "0px auto",
     },
