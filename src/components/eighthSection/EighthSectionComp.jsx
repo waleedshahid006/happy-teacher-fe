@@ -16,7 +16,7 @@ const EighthSectionComp = () => {
   const onSubmitHandler = (e) => {
     e.preventDefault();
     console.log(contactDetails);
-    axios.post("/api/user/contact-details", contactDetails)
+    axios.post("https://happy-teacher-bk.herokuapp.com/api/user/contact-details", contactDetails)
       .then((resp) => alert(resp.data.message))
     document.getElementById("contactForm").reset();
   }
