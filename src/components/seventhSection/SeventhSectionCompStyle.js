@@ -10,19 +10,19 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "9%",
     backgroundRepeat: "no-repeat",
     [theme.breakpoints.down("sm")]: {
-      backgroundImage: 'initial',
+      backgroundImage: "initial",
       margin: "40% 0 5% 0",
-      height:'375px'
+      height: "375px",
     },
   },
   mainContent: {
-    display: 'flex',
-    margin: 'auto',
-    flexDirection: 'column',
-    alignItems: 'center',
+    display: "flex",
+    margin: "auto",
+    flexDirection: "column",
+    alignItems: "center",
     [theme.breakpoints.down("sm")]: {
-      padding: '0px 20px',
-      textAlign: 'center',
+      padding: "0px 20px",
+      textAlign: "center",
     },
   },
   mainHeading: {
@@ -32,14 +32,17 @@ const useStyles = makeStyles((theme) => ({
   },
   heading: {
     color: "#2D424A",
-    fontSize: "calc(80% + 0.1vw + 0.1vh )",
+    fontSize: "calc(100% + 0.2vw + 0.2vh )",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "calc(80% + 0.1vw + 0.1vh )",
+    },
   },
   img: {
-    margin: '2% 0 1% 0',
+    margin: "2% 0 1% 0",
     [theme.breakpoints.down("sm")]: {
-      width: '70%'
+      width: "70%",
     },
-  }
+  },
 }));
 
 export default useStyles;

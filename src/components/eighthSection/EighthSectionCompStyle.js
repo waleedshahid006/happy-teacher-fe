@@ -18,9 +18,12 @@ const useStyles = makeStyles((theme) => ({
   },
   heading: {
     color: "#36312E",
-    fontSize: "calc(100% + 1vw + 1vh )",
+    fontSize: "calc(100% + 1.2vw + 1.2vh )",
     lineHeight: "1.1",
     paddingBottom: "20px",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "calc(100% + 1vw + 1vh )",
+    },
   },
   body: {
     color: "#36312E",
@@ -47,7 +50,6 @@ const useStyles = makeStyles((theme) => ({
       // border: "1px solid #2D424A",
       // borderColor:'red !important'
     },
-
   },
 }));
 
