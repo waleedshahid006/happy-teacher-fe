@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
-import firstSectionBg from "../../assets/firstSectionBg.png";
+import firstSectionBg from "../../assets/firstSectionBg1.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
