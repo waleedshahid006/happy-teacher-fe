@@ -1,6 +1,9 @@
-import { Typography } from '@material-ui/core';
 import React from 'react';
+// material ui
+import { Typography } from '@material-ui/core';
+// css
 import useStyles from './SeventhSectionCompStyle';
+// images
 import ncustLogo from "../../assets/ncustLogo.png";
 import cnetLogo from "../../assets/cnetLogo.png";
 

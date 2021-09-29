@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
+// material ui
 import {
   Typography,
   SwipeableDrawer,
 } from "@material-ui/core";
-
+// css
 import "../../App.css";
+import useStyles from "./HeaderCompStyle";
+// images
 import logo from "../../assets/logo.svg";
+// mui-icons 
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
-import useStyles from "./HeaderCompStyle";
 
 const HeaderComp = () => {
 

@@ -1,7 +1,11 @@
-import { Typography, Link } from '@material-ui/core';
 import React from 'react'
+// material ui
+import { Typography, Link } from '@material-ui/core';
+// css
 import useStyles from './FirstSectionCompStyle';
+// reuseable component
 import ButtonComp from '../../shared/button/ButtonComp';
+// images
 import line from "../../assets/line.svg";
 
 const FirstSectionComp = () => {

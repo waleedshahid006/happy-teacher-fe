@@ -1,7 +1,10 @@
 import React from 'react';
+// css
 import useStyles from './FooterCompStyle';
-import logo from "../../assets/logo.svg";
+// material ui
 import { Link, Typography } from '@material-ui/core';
+// images
+import logo from "../../assets/logo.svg";
 import email from "../../assets/email.svg";
 import facebook from "../../assets/facebook.svg";
 import instagram from "../../assets/instagram.svg";

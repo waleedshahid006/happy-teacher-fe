@@ -1,7 +1,11 @@
-import { Grid, Typography } from '@material-ui/core';
 import React from 'react';
+// material ui
+import { Grid, Typography } from '@material-ui/core';
+// images
 import personImg from "../../assets/whiteCircleImg.png";
+// reuseable components
 import ButtonComp from '../../shared/button/ButtonComp';
+// css
 import useStyles from './SecondSectionCompStyle';
 
 const SecondSectionComp = () => {

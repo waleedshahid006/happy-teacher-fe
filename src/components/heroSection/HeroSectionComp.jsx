@@ -1,15 +1,19 @@
 import React from 'react';
+// material ui
 import {
   Grid, Typography,
 } from "@material-ui/core";
 //imgaes
 import teacherAvatar from "../../assets/teacherAvatar.png";
 import "../../App.css";
+// reuseable component
 import HeaderComp from "../header/HeaderComp";
-import useStyles from './HeroSectionCompStyle';
 import ButtonComp from '../../shared/button/ButtonComp';
-import { openPopupWidget } from "react-calendly";
 import { calendlyURL } from '../../shared/Shared';
+// css
+import useStyles from './HeroSectionCompStyle';
+// calendly
+import { openPopupWidget } from "react-calendly";
 
 const HeroSectionComp = () => {
 

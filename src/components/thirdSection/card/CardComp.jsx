@@ -1,6 +1,9 @@
 import React from 'react';
+// material ui
 import { Link, Typography } from '@material-ui/core';
+// reuseable component
 import ButtonComp from '../../../shared/button/ButtonComp';
+// css
 import useStyles from '../ThirdSectionCompStyle';
 
 const CardComp = ({ src, heading, body, btnText, link, onClick }) => {

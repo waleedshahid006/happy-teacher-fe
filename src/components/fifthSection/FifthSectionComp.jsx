@@ -1,7 +1,11 @@
-import { Typography } from '@material-ui/core';
 import React from 'react';
+// material ui
+import { Typography } from '@material-ui/core';
+// reuseable components
 import CardComp from './card/CardComp';
+// css
 import useStyles from './FifthSectionCompStyle';
+// images
 import person1 from "../../assets/person1.png";
 import person2 from "../../assets/person2.png";
 import person3 from "../../assets/person3.png";

@@ -1,5 +1,7 @@
 import React from "react";
+//css
 import "./App.css";
+// reuseable component
 import HeroSectionComp from "./components/heroSection/HeroSectionComp";
 import FirstSectionComp from "./components/firstSection/FirstSectionComp";
 import SecondSectionComp from "./components/secondSection/SecondSectionComp";

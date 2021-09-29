@@ -1,6 +1,9 @@
 import React from 'react';
+// material ui
 import { Link, Typography } from '@material-ui/core';
+// css
 import useStyles from './FourthSectionCompStyle';
+// reuseable components
 import ButtonComp from '../../shared/button/ButtonComp';
 
 const FourthSectionComp = () => {

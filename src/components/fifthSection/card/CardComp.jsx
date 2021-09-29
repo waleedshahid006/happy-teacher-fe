@@ -1,5 +1,7 @@
 import React from 'react';
+// material ui
 import { Grid, Typography } from '@material-ui/core';
+// css
 import useStyles from '../FifthSectionCompStyle';
 
 const CardComp = ({ src, heading, body, imgRight }) => {

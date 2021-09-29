@@ -1,13 +1,17 @@
-import { Typography } from '@material-ui/core';
 import React from 'react';
+// material ui
+import { Typography } from '@material-ui/core';
+// reuseable components
 import CardComp from './card/CardComp';
+import { calendlyURL } from '../../shared/Shared';
+// css
 import useStyles from './ThirdSectionCompStyle';
-
+// images
 import booksImg from "../../assets/books.png"
 import handsImg from "../../assets/hands.png"
 import telephoneImg from "../../assets/telephone.png"
+// calendly
 import { openPopupWidget } from "react-calendly";
-import { calendlyURL } from '../../shared/Shared';
 
 const ThirdSectionComp = () => {
 

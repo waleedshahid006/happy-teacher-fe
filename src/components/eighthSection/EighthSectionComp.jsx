@@ -1,7 +1,11 @@
-import { TextField, Typography } from '@material-ui/core';
 import React, { useState } from 'react';
+// material ui
+import { TextField, Typography } from '@material-ui/core';
+// reuseable components
 import ButtonComp from '../../shared/button/ButtonComp';
+// css
 import useStyles from "./EighthSectionCompStyle";
+// axios
 import axios from "axios";
 
 const EighthSectionComp = () => {

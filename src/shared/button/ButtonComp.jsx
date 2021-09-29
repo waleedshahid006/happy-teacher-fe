@@ -1,5 +1,7 @@
 import React from 'react';
+// material ui
 import { Button } from '@material-ui/core';
+// css
 import useStyles from "./ButtonCompStyle";
 
 const ButtonComp = ({ text, style, className, white, onClick, type }) => {

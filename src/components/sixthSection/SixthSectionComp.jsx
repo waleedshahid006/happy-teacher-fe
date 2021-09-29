@@ -1,9 +1,13 @@
 import React from 'react';
+// css
 import useStyles from './SixthSectionCompStyle';
+// material ui
 import { Typography } from '@material-ui/core';
+// reuseable components
 import ButtonComp from '../../shared/button/ButtonComp';
-import { openPopupWidget } from "react-calendly";
 import { calendlyURL } from '../../shared/Shared';
+// calendly
+import { openPopupWidget } from "react-calendly";
 
 const SixthSectionComp = () => {
 
