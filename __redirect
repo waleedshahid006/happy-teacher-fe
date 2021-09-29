@@ -1,1 +1,2 @@
-asd
+/user/* https://happy-teacher-bk.herokuapp.com/user/:splat 200
+/* /index.html 200
