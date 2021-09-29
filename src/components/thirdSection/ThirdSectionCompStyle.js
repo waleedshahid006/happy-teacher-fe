@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
       paddingTop: "35%",
       backgroundSize: "initial",
     },
-    [theme.breakpoints.up(435)]: {
+    [theme.breakpoints.up(410)]: {
       paddingTop: "21%",
     },
   },
