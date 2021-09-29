@@ -16,7 +16,7 @@ const CardComp = ({ src, heading, body, btnText, link, onClick }) => {
         <Typography className={`${classes.subHeading} poppins-medium`} align="center"> {heading} </Typography>
         <Typography className={`${classes.body} poppins-regular`} align="center" > {body}  </Typography>
       </div>
-      <Link className={classes.link} href={link}>
+      <Link target="_blank" className={classes.link} href={link}>
         <ButtonComp
           className="poppins-regular"
           white

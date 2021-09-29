@@ -24,7 +24,7 @@ const FirstSectionComp = () => {
           Plus get ready for <br /> life-changing transformations — I’m going to give you tips to boost your energy,
           simplify your life, improve health, <br /> increase happiness, and bring back the joy of teaching.
         </Typography><br /><br />
-        <Link className={classes.link} href="https://quiz.tryinteract.com/#/612f98b39d4f4e0018b77db2">
+        <Link target="_blank" className={classes.link} href="https://quiz.tryinteract.com/#/612f98b39d4f4e0018b77db2">
           <ButtonComp className={`${classes.btn} poppins-regular`} text="Take the Quiz" />
         </Link>
       </div>
