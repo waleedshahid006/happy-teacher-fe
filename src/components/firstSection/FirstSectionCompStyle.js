@@ -40,6 +40,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "calc(100% + 0.1vw + 0.1vh )",
     [theme.breakpoints.down("sm")]: {
       fontSize: "calc(84% + 0.1vw + 0.1vh )",
+      textAlign: "center",
     },
   },
   line: {

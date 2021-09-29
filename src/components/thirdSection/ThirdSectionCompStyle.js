@@ -95,7 +95,7 @@ const useStyles = makeStyles((theme) => ({
     textDecoration: "none !important",
     [theme.breakpoints.down("sm")]: {
       textAlign: "center",
-      marginBottom:'10%'
+      marginBottom:'7%'
     },
     // marginTop: "auto !important",
   },
