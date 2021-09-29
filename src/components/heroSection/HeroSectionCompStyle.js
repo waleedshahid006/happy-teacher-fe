@@ -71,7 +71,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "0 0 0 3% !important",
     padding: "10px 30px !important",
     [theme.breakpoints.down("sm")]: {
-      margin: "0px auto",
+      margin: "0px auto !important",
     },
   },
 }));
