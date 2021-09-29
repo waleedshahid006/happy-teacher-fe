@@ -37,23 +37,23 @@ const FooterComp = () => {
             <Link style={{ textDecoration: 'none' }} href="mailto:info@lynnhardin.com">
               <img alt="email" src={email} className={classes.leftFooterItemIcon} />
             </Link>
-            <Link style={{ textDecoration: 'none' }} href="https://www.facebook.com/happyteacherhappylife">
+            <Link target="_blank" style={{ textDecoration: 'none' }} href="https://www.facebook.com/happyteacherhappylife">
               <img alt="facebook" src={facebook} className={classes.leftFooterItemIcon} />
             </Link>
-            <Link style={{ textDecoration: 'none' }} href="https://www.instagram.com/principal_lynn_hardin/">
+            <Link target="_blank" style={{ textDecoration: 'none' }} href="https://www.instagram.com/principal_lynn_hardin/">
               <img alt="instagram" src={instagram} className={classes.leftFooterItemIcon} />
             </Link>
           </div>
           <div className={classes.footerIconsDiv}>
-            <Link style={{ textDecoration: 'none' }} href="http://linkedin.com/in/lynnhardin">
+            <Link target="_blank" style={{ textDecoration: 'none' }} href="http://linkedin.com/in/lynnhardin">
               <img alt="linkedin" src={linkedin} className={classes.rightFooterItemIcon} />
             </Link>
 
-            <Link style={{ textDecoration: 'none' }} href="https://www.pinterest.com/lynnhardin/">
+            <Link target="_blank" style={{ textDecoration: 'none' }} href="https://www.pinterest.com/lynnhardin/">
               <img alt="pinterest" src={pinterest} className={classes.rightFooterItemIcon} />
             </Link>
 
-            <Link style={{ textDecoration: 'none' }} href="https://twitter.com/_lynn_hardin">
+            <Link target="_blank" style={{ textDecoration: 'none' }} href="https://twitter.com/_lynn_hardin">
               <img alt="twitter" src={twitter} className={classes.rightFooterItemIcon} />
             </Link>
           </div>
