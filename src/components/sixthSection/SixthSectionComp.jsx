@@ -2,6 +2,8 @@ import React from 'react';
 import useStyles from './SixthSectionCompStyle';
 import { Typography } from '@material-ui/core';
 import ButtonComp from '../../shared/button/ButtonComp';
+import { openPopupWidget } from "react-calendly";
+import { calendlyURL } from '../../shared/Shared';
 
 const SixthSectionComp = () => {
 
@@ -22,7 +24,12 @@ const SixthSectionComp = () => {
           </div>
         </div>
         <div className={classes.btnDiv}>
-          <ButtonComp className={`${classes.btn} poppins-regular`} text="Book Now" white />
+          <ButtonComp
+            className={`${classes.btn} poppins-regular`}
+            text="Book Now"
+            white
+            onClick={() => openPopupWidget({ url: calendlyURL })}
+          />
         </div>
       </div>
     </div>

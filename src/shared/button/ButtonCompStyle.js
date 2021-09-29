@@ -1,6 +1,6 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme)=>({
   whiteBtn: {
     width: "max-content",
     backgroundColor: "#FFFFFF",
@@ -10,6 +10,9 @@ const useStyles = makeStyles({
     textTransform: "initial",
     "&:hover": {
       backgroundColor: "rgba(255,255,255,0.9)",
+    },
+    [theme.breakpoints.down("sm")]: {
+      height: "35px",
     },
   },
   greenBtn: {
@@ -22,7 +25,10 @@ const useStyles = makeStyles({
     "&:hover": {
       backgroundColor: "rgba(45,66,74,0.9)",
     },
+    [theme.breakpoints.down("sm")]: {
+      height: "35px",
+    },
   },
-});
+}));
 
 export default useStyles;

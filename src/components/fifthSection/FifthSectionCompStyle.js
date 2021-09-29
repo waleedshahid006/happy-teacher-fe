@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme) => ({
     whiteSpace: "pre",
     [theme.breakpoints.down("sm")]: {
       fontSize: "calc(65% + 0.1vw + 0.1vh )",
+      whiteSpace: "initial",
     },
   },
   img: {
@@ -55,6 +56,19 @@ const useStyles = makeStyles((theme) => ({
     width: "fit-content",
     [theme.breakpoints.down("sm")]: {
       marginLeft: "0%",
+    },
+  },
+  gridCont: {
+    marginTop: "4%",
+    [theme.breakpoints.down("sm")]: {
+      display: "none",
+    },
+  },
+  mobRespGridContainer: {
+    marginTop: "4%",
+    display: "none",
+    [theme.breakpoints.down("sm")]: {
+      display: "block",
     },
   },
 }));

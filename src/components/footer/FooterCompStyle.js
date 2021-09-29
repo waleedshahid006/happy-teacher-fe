@@ -12,10 +12,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   mainContent: {
-    display: 'flex',
-    height: '100%',
+    display: "flex",
+    height: "100%",
     [theme.breakpoints.down("sm")]: {
-      flexDirection: 'column'
+      flexDirection: "column",
     },
   },
   logoDiv: {
@@ -24,8 +24,8 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "end",
     alignItems: "center",
     [theme.breakpoints.down("sm")]: {
-      justifyContent: 'center',
-      flex: 'initial',
+      justifyContent: "center",
+      flex: "initial",
     },
   },
   logo: {
@@ -42,16 +42,19 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     margin: "auto",
     [theme.breakpoints.down("sm")]: {
-      flex: 'initial',
+      flex: "initial",
       margin: "initial",
       flexDirection: "initial",
-      justifyContent: 'space-evenly',
+      justifyContent: "space-evenly",
     },
   },
   leftFooterItemText: {
     color: "#ffffff",
     fontSize: "calc(100% + 0.1vw + 0.1vh )",
     margin: "10% 0 0 50%",
+    // "&:hover": {
+    //   textDecoration: "underline",
+    // },
     [theme.breakpoints.down("sm")]: {
       margin: "0% 0 0 0%",
     },
@@ -60,16 +63,19 @@ const useStyles = makeStyles((theme) => ({
     color: "#ffffff",
     fontSize: "calc(100% + 0.1vw + 0.1vh )",
     margin: "10% 0 0 10%",
+    // "&:hover": {
+    //   textDecoration: "underline",
+    // },
     [theme.breakpoints.down("sm")]: {
       margin: "0% 0 0 0%",
     },
   },
   footerIconsMainDiv: {
-    display: 'contents',
+    display: "contents",
     [theme.breakpoints.down("sm")]: {
-      display: 'flex',
-      justifyContent: 'center',
-      margin: '20px 0px',
+      display: "flex",
+      justifyContent: "center",
+      margin: "20px 0px",
     },
   },
   footerIconsDiv: {
@@ -78,10 +84,10 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     margin: "auto",
     [theme.breakpoints.down("sm")]: {
-      flex: 'initial',
+      flex: "initial",
       margin: "initial",
       flexDirection: "initial",
-      justifyContent: 'center',
+      justifyContent: "center",
     },
   },
   leftFooterItemIcon: {
@@ -89,7 +95,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "9% 0 0 70%",
     [theme.breakpoints.down("sm")]: {
       margin: "0% 10px 0 0%",
-      width: 'initial',
+      width: "initial",
     },
   },
   rightFooterItemIcon: {
@@ -97,7 +103,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "9% 0 0 0%",
     [theme.breakpoints.down("sm")]: {
       margin: "0% 10px 0 0%",
-      width: 'initial',
+      width: "initial",
     },
   },
 }));

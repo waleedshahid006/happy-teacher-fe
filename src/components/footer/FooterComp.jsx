@@ -31,7 +31,7 @@ const FooterComp = () => {
         </div>
         <div className={classes.footerIconsMainDiv}>
           <div className={classes.footerIconsDiv}>
-            <Link style={{ textDecoration: 'none' }} href="info@lynnhardin.com">
+            <Link style={{ textDecoration: 'none' }} href="mailto:info@lynnhardin.com">
               <img alt="email" src={email} className={classes.leftFooterItemIcon} />
             </Link>
             <Link style={{ textDecoration: 'none' }} href="https://www.facebook.com/happyteacherhappylife">

@@ -3,7 +3,7 @@ import { Link, Typography } from '@material-ui/core';
 import ButtonComp from '../../../shared/button/ButtonComp';
 import useStyles from '../ThirdSectionCompStyle';
 
-const CardComp = ({ src, heading, body, btnText, link }) => {
+const CardComp = ({ src, heading, body, btnText, link, onClick }) => {
 
   const classes = useStyles();
   return (
@@ -14,7 +14,13 @@ const CardComp = ({ src, heading, body, btnText, link }) => {
         <Typography className={`${classes.body} poppins-regular`} align="center" > {body}  </Typography>
       </div>
       <Link className={classes.link} href={link}>
-        <ButtonComp className="poppins-regular" white text={btnText} style={{ padding: '10px 25px' }} />
+        <ButtonComp
+          className="poppins-regular"
+          white
+          text={btnText}
+          style={{ padding: '10px 25px' }}
+          onClick={onClick}
+        />
       </Link>
     </div >
   )

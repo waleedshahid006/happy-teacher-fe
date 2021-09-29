@@ -29,7 +29,7 @@ const FifthSectionComp = () => {
           "Happiness and health for a teacher have 8 areas of mastery.", <br />,
           "Health, personal development, fun, romance, career, family", <br />,
           "and friends, money, and spirituality."]}
-        // imgRight={true}
+        imgRight={true}
       />
       <CardComp
         src={person3}

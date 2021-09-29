@@ -6,6 +6,8 @@ import useStyles from './ThirdSectionCompStyle';
 import booksImg from "../../assets/books.png"
 import handsImg from "../../assets/hands.png"
 import telephoneImg from "../../assets/telephone.png"
+import { openPopupWidget } from "react-calendly";
+import { calendlyURL } from '../../shared/Shared';
 
 const ThirdSectionComp = () => {
 
@@ -51,6 +53,7 @@ const ThirdSectionComp = () => {
             //   "more personal attention,", <br />,
             //   "and mind-blowing,", <br />,
             //   "information."]}
+            onClick={() => openPopupWidget({ url: calendlyURL })}
             btnText="Book now" />
         </div>
       </div>
