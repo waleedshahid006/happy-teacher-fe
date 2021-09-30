@@ -26,13 +26,13 @@ const HeroSectionComp = () => {
           <HeaderComp />
         </Grid>
 
-        <Grid item xs={12} md={5} lg={5} xl={5}>
+        <Grid item xs={12} md={5} lg={5} xl={6}>
           <div className={classes.heroSectionImgDiv}>
             <img alt="teacher Avatar" className={classes.heroSectionImg} src={teacherAvatar} />
           </div>
         </Grid>
 
-        <Grid item xs={12} md={7} lg={7} xl={7}>
+        <Grid item xs={12} md={7} lg={7} xl={6}>
           <div className={classes.heroSectionText}>
             <div>
               <Typography className={`${classes.headerText} autography`}> Welcome To <br /> Happy Teacher Happy Life   </Typography>

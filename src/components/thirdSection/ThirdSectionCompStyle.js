@@ -6,9 +6,9 @@ const useStyles = makeStyles((theme) => ({
   root: {
     backgroundImage: `url(${thirdSectionBg})`,
     backgroundSize: "100% 100%",
-    height: "115vh",
+    height: "131vh",
     width: "100%",
-    paddingTop: "11%",
+    paddingTop: "14%",
     backgroundRepeat: "no-repeat",
     position: "absolute",
     [theme.breakpoints.down("sm")]: {
@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
       paddingTop: "21%",
     },
     [theme.breakpoints.up(500)]: {
-      paddingTop: "11%",
+      paddingTop: "14%",
     },
   },
   mainContent: {
@@ -53,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#FFFFFF",
     fontSize: "calc(100% + 1.6vw + 1.6vh )",
     lineHeight: "1.1",
-    marginBottom: "2%",
+    marginBottom: "8%",
     [theme.breakpoints.down("sm")]: {
       fontSize: "calc(100% + 1.1vw + 1.1vh )",
       marginBottom: "10%",
@@ -80,8 +80,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   img: {
-    width: "220px",
-    height: "220px",
+    width: "260px",
+    height: "260px",
     [theme.breakpoints.down("sm")]: {
       width: "30%",
       height: "130px",

@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    paddingTop: "15%",
+    paddingTop: "12%",
     [theme.breakpoints.down("sm")]: {
       paddingTop: "465px",
     },
@@ -10,10 +10,12 @@ const useStyles = makeStyles((theme) => ({
   contentDiv: {
     width: "max-content",
     margin: "auto",
+    paddingTop: "10%",
     paddingLeft: "30%",
     [theme.breakpoints.down("sm")]: {
       paddingLeft: "1%",
       textAlign: "center",
+      paddingTop: "initial",
     },
   },
   heading: {
@@ -27,15 +29,38 @@ const useStyles = makeStyles((theme) => ({
   body: {
     color: "#2D424A",
     fontSize: "calc(100% + 0.1vw + 0.1vh )",
+    lineHeight: "1.2",
     [theme.breakpoints.down("sm")]: {
       fontSize: "calc(65% + 0.1vw + 0.1vh )",
     },
   },
   img: {
+    paddingTop: "14%",
     [theme.breakpoints.down("sm")]: {
       width: "50%",
       display: "flex",
       margin: "8% auto",
+      paddingTop: "initial",
+    },
+  },
+  leftLineImg: {
+    position: "absolute",
+    [theme.breakpoints.down("sm")]: {
+      display: "none",
+    },
+  },
+  rightLineImg: {
+    position: "absolute",
+    right: "0",
+    [theme.breakpoints.down("sm")]: {
+      display: "none",
+    },
+  },
+  starsImg: {
+    position: "absolute",
+    right: "10px",
+    [theme.breakpoints.down("sm")]: {
+      display: "none",
     },
   },
 }));

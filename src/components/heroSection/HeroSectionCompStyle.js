@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   },
   heroSectionImgDiv: {
     display: "flex",
-    paddingTop: "4%",
+    paddingRight: "25px",
     justifyContent: "right",
     width: "100%",
     height: "100vh",
@@ -28,8 +28,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heroSectionImg: {
-    width: "50%",
-    height: "50%",
+    width: "47%",
+    height: "55%",
     [theme.breakpoints.down("sm")]: {
       width: "40%",
     },
@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
   headerText: {
     color: "#ffffff",
     fontSize: "calc(100% + 1.15vw + 1.15vh )",
-    margin: "9% 0 0 3%",
+    margin: "13% 0 0 0%",
     lineHeight: "1.2",
     [theme.breakpoints.down("sm")]: {
       margin: "2% 0 0 3%",
@@ -60,7 +60,8 @@ const useStyles = makeStyles((theme) => ({
   subText: {
     color: "#ffffff",
     fontSize: "calc(100% + 0.1vw + 0.1vh )",
-    margin: "0 0 0 3%",
+    margin: "0 0 0 0%",
+    lineHeight: "1.2",
     [theme.breakpoints.down("sm")]: {
       fontSize: "calc(80% + 0.1vw + 0.1vh )",
       textAlign: "center",
@@ -68,7 +69,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   bookCallBtn: {
-    margin: "0 0 0 3% !important",
+    margin: "50px 0 0 0% !important",
     padding: "10px 30px !important",
     [theme.breakpoints.down("sm")]: {
       margin: "0px auto !important",

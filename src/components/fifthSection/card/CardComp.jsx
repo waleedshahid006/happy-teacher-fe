@@ -36,13 +36,13 @@ const CardComp = ({ src, heading, body, imgRight }) => {
           </Grid>
 
           <Grid container className={classes.gridCont}>
-            <Grid item xs={12} md={6} lg={6} className={classes.contentGrid}>
+            <Grid item xs={12} md={6} lg={6} style={{ padding: "11% 0 0 0%", }}>
               <div className={classes.rightContentDiv}>
                 <Typography className={`${classes.heading} poppins-medium`}>{heading}</Typography><br />
                 <Typography className={`${classes.body} poppins-regular`}>{body}</Typography>
               </div>
             </Grid>
-            <Grid item xs={12} md={6} lg={6}>
+            <Grid item xs={12} md={6} lg={6} style={{ paddingLeft: '65px' }}>
               <img alt="person" src={src} className={classes.img} />
             </Grid>
           </Grid>

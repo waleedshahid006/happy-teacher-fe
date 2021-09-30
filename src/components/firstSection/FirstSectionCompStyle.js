@@ -38,6 +38,7 @@ const useStyles = makeStyles((theme) => ({
   body: {
     color: "#2D424A",
     fontSize: "calc(100% + 0.1vw + 0.1vh )",
+    lineHeight: "1.2",
     [theme.breakpoints.down("sm")]: {
       fontSize: "calc(84% + 0.1vw + 0.1vh )",
       textAlign: "center",

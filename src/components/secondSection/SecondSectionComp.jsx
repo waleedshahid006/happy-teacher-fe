@@ -3,6 +3,9 @@ import React from 'react';
 import { Grid, Typography } from '@material-ui/core';
 // images
 import personImg from "../../assets/whiteCircleImg.png";
+import leftArrow from "../../assets/leftArrow.svg";
+import rightArrow from "../../assets/rightArrow.png";
+import stars from "../../assets/stars.svg";
 // reuseable components
 import ButtonComp from '../../shared/button/ButtonComp';
 // css
@@ -14,7 +17,8 @@ const SecondSectionComp = () => {
 
   return (
     <div className={classes.root}>
-      <Grid container >
+      <img alt="Line" src={rightArrow} className={classes.rightLineImg} />
+      <Grid container>
         <Grid item xs={12} md={7} lg={7}>
           <div className={classes.contentDiv}>
             <Typography className={`${classes.heading} autography`}>
@@ -39,6 +43,12 @@ const SecondSectionComp = () => {
           <img alt="person avatar" src={personImg} className={classes.img} />
         </Grid>
       </Grid>
+      <div className={classes.leftLineImg}>
+        <img alt="Line" src={leftArrow} style={{ margin: '-225px 0 0 -210px' }} />
+      </div>
+      <div className={classes.starsImg}>
+        <img alt="stars" src={stars} style={{ marginTop: '-100px' }} />
+      </div>
     </div>
   )
 }

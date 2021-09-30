@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
   logoDiv: {
     display: "flex",
-    flex: "0.4",
+    flex: "0.5",
     justifyContent: "end",
     alignItems: "center",
     [theme.breakpoints.down("sm")]: {

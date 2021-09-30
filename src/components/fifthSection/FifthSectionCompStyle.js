@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
   },
   heading: {
     color: "#36312E",
-    fontSize: "calc(100% + 0.6vw + 0.6vh )",
+    fontSize: "28px",
     lineHeight: "1.1",
     [theme.breakpoints.down("sm")]: {
       fontSize: "calc(100% + 0.5vw + 0.5vh )",
@@ -45,18 +45,18 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   contentGrid: {
-    padding: "4% 0 0 3%",
+    padding: "9% 0 0 3%",
     [theme.breakpoints.down("sm")]: {
       padding: "4% 0 0 0%",
       textAlign: "center",
     },
   },
   rightContentDiv: {
-    marginLeft: "42%",
+    // marginLeft: "42%",
     width: "fit-content",
-    [theme.breakpoints.down("sm")]: {
-      marginLeft: "0%",
-    },
+    // [theme.breakpoints.down("sm")]: {
+    //   marginLeft: "0%",
+    // },
   },
   gridCont: {
     marginTop: "4%",
@@ -69,6 +69,13 @@ const useStyles = makeStyles((theme) => ({
     display: "none",
     [theme.breakpoints.down("sm")]: {
       display: "block",
+    },
+  },
+  center: {
+    width: "45%",
+    margin: "auto",
+    [theme.breakpoints.down("sm")]: {
+      display: "none",
     },
   },
 }));

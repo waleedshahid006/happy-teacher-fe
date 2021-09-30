@@ -9,9 +9,11 @@ const useStyles = makeStyles((theme) => ({
   },
   logoDiv: {
     display: "flex",
-    flex: "0.3",
+    flex: "0.4",
+    paddingRight:'90px',
     justifyContent: "right",
     [theme.breakpoints.down("sm")]: {
+      paddingRight:'initial',
       flex: "0.5",
     },
   },
@@ -24,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   navItemRoot: {
-    flex: "0.7",
+    flex: "0.6",
     [theme.breakpoints.down("sm")]: {
       display: "none",
     },
@@ -34,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "20px !important",
     fontStyle: "normal",
     fontWeight: "normal !important",
-    marginRight: "2%",
+    marginRight: "27px",
   },
   hamburgerDiv: {
     display: "none",
