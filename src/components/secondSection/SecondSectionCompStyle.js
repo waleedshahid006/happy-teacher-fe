@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#2D424A",
     fontSize: "calc(100% + 1.6vw + 1.6vh )",
     [theme.breakpoints.down("sm")]: {
-      marginTop: "16%",
+      marginTop: "6%",
       fontSize: "calc(100% + 1.4vw + 1.4vh )",
     },
   },

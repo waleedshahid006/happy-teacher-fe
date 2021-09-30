@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     position: "absolute",
     top: "60%",
     [theme.breakpoints.down("sm")]: {
-      top: "580px",
+      top: "545px",
       backgroundSize: "initial",
       height: "initial",
     },
