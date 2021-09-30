@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: "100% 100%",
     height: "131vh",
     width: "100%",
-    paddingTop: "14%",
+    paddingTop: "15%",
     backgroundRepeat: "no-repeat",
     position: "absolute",
     [theme.breakpoints.down("sm")]: {
@@ -71,7 +71,7 @@ const useStyles = makeStyles((theme) => ({
   },
   body: {
     color: "#FFFFFF",
-    fontSize: "calc(100% + 0.1vw + 0.1vh )",
+    // fontSize: "calc(100% + 0.1vw + 0.1vh )",
     lineHeight: "1.2",
     marginBottom: "5%",
     [theme.breakpoints.down("sm")]: {
