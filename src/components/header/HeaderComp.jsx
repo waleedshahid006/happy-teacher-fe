@@ -24,7 +24,7 @@ const HeaderComp = () => {
         <img alt="logo" src={logo} className={classes.logo} />
       </div>
       <div className={classes.navItemRoot} >
-        <div style={{ display: 'flex', justifyContent: 'left', margin: ' 2% 0 0 7%' }}>
+        <div style={{ display: 'flex', justifyContent: 'left', margin: ' 2% 0 0 9%' }}>
           <Typography className={`${classes.navItems} poppins-regular`}> About </Typography>
           <Typography className={`${classes.navItems} poppins-regular`}> Blog </Typography>
           <Typography className={`${classes.navItems} poppins-regular`}> Podcast </Typography>

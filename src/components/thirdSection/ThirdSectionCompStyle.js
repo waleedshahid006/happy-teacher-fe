@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     alignItems: "center",
     // width: "35%",
-    width: "31%",
+    width: "28%",
     [theme.breakpoints.down("sm")]: {
       margin: "auto",
       width: "80%",
@@ -53,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#FFFFFF",
     fontSize: "calc(100% + 1.6vw + 1.6vh )",
     lineHeight: "1.1",
-    marginBottom: "8%",
+    marginBottom: "10%",
     [theme.breakpoints.down("sm")]: {
       fontSize: "calc(100% + 1.1vw + 1.1vh )",
       marginBottom: "10%",
@@ -61,7 +61,8 @@ const useStyles = makeStyles((theme) => ({
   },
   subHeading: {
     color: "#FFFFFF",
-    fontSize: "calc(100% + 0.7vw + 0.6vh )",
+    // fontSize: "calc(100% + 0.7vw + 0.6vh )",
+    fontSize: "28px",
     lineHeight: "1.2",
     margin: "5% 0 2% 0",
     [theme.breakpoints.down("sm")]: {
@@ -101,7 +102,7 @@ const useStyles = makeStyles((theme) => ({
     textDecoration: "none !important",
     [theme.breakpoints.down("sm")]: {
       textAlign: "center",
-      marginBottom:'7%'
+      marginBottom: "7%",
     },
     // marginTop: "auto !important",
   },

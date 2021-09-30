@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: "100% 100%",
     height: "59vh",
     width: "100%",
-    marginTop: "9%",
+    marginTop: "11%",
     backgroundRepeat: "no-repeat",
     [theme.breakpoints.down("sm")]: {
       backgroundImage: "initial",

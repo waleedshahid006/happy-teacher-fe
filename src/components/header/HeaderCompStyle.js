@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   logoDiv: {
     display: "flex",
     flex: "0.4",
-    paddingRight:'90px',
+    paddingRight:'36px',
     justifyContent: "right",
     [theme.breakpoints.down("sm")]: {
       paddingRight:'initial',
