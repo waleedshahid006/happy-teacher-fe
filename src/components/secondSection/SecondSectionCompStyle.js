@@ -37,10 +37,7 @@ const useStyles = makeStyles((theme) => ({
   img: {
     paddingTop: "14%",
     [theme.breakpoints.down("sm")]: {
-      width: "50%",
-      display: "flex",
-      margin: "8% auto",
-      paddingTop: "initial",
+      display: "none",
     },
   },
   leftLineImg: {
@@ -61,6 +58,16 @@ const useStyles = makeStyles((theme) => ({
     right: "10px",
     [theme.breakpoints.down("sm")]: {
       display: "none",
+    },
+  },
+  mobRespImg: {
+    display: "none",
+    [theme.breakpoints.down("sm")]: {
+      display: "block",
+      width: "205px",
+      display: "flex",
+      margin: "8% auto",
+      paddingTop: "initial",
     },
   },
 }));

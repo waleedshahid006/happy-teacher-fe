@@ -24,6 +24,7 @@ const SecondSectionComp = () => {
             <Typography className={`${classes.heading} autography`}>
               Hi, I'm Lynn Hardin!
             </Typography>  <br />
+            <img alt="person avatar" src={personImg} className={classes.mobRespImg} />
             <Typography className={`${classes.body} poppins-regular`}>
               I'm a leadership and life coach for educators. I am the <br />
               founder of "Happy Teacher Happy Life," and my mission is <br />

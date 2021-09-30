@@ -46,7 +46,7 @@ const HeaderComp = () => {
             <CloseIcon className={classes.closeIcon} onClick={() => setOpen(false)} />
             <div className={classes.drawerNavItemDiv}>
               <Typography className={classes.drawerNavItem}> About </Typography>
-              <Typography className={classes.drawerNavItem}> Blogs </Typography>
+              <Typography className={classes.drawerNavItem}> Blog </Typography>
               <Typography className={classes.drawerNavItem}> Podcast </Typography>
               <Typography className={classes.drawerNavItem}> Shops </Typography>
               <Typography className={classes.drawerNavItem}> Newsletter </Typography>
