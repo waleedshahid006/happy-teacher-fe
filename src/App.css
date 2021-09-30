@@ -103,6 +103,16 @@ input:not(:placeholder-shown) + label {
   transform: translateY(-50%) scale(0.9);
 }
 
+input:focus + textarea {
+  color: #2d424a;
+  top: 0;
+  transform: translateY(-50%) scale(0.9);
+}
+input:not(:placeholder-shown) + textarea {
+  top: 0;
+  transform: translateY(-50%) scale(0.9);
+}
+
 @media screen and (max-width: 480px) {
   .white-pattern-bg {
     height: 3720px;

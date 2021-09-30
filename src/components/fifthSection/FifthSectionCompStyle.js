@@ -75,7 +75,8 @@ const useStyles = makeStyles((theme) => ({
     width: "45%",
     margin: "auto",
     [theme.breakpoints.down("sm")]: {
-      display: "none",
+      width: "initial",
+      margin: "initial",
     },
   },
 }));
