@@ -37,19 +37,19 @@ const EighthSectionComp = () => {
           </Typography>
           <br />
           <div class="material-textfield">
-            <input required placeholder="Name" onChange={onChangeHandler} type="text" />
+            <input required placeholder="Name" name="name" onChange={onChangeHandler} type="text" />
             {/* <label>Name</label> */}
           </div>
           <div class="material-textfield">
-            <input required placeholder="Email" onChange={onChangeHandler} type="text" />
+            <input required placeholder="Email" name="email" onChange={onChangeHandler} type="text" />
             {/* <label>Email</label> */}
           </div>
           <div class="material-textfield">
-            <input required placeholder="Subject" onChange={onChangeHandler} type="text" />
+            <input required placeholder="Subject" name="subject" onChange={onChangeHandler} type="text" />
             {/* <label>Subject</label> */}
           </div>
           <div class="material-textfield">
-            <textarea required placeholder="Message" onChange={onChangeHandler} rows="5" />
+            <textarea required placeholder="Message" name="message" onChange={onChangeHandler} rows="5" />
             {/* <input required placeholder=" "  onChange={onChangeHandler} type="text" /> */}
             {/* <label className="text-label">Message</label> */}
           </div>
