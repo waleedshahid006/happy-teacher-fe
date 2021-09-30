@@ -23,7 +23,21 @@ const useStyles = makeStyles((theme)=>({
     borderRadius: "0%",
     textTransform: "initial",
     "&:hover": {
-      backgroundColor: "rgba(45,66,74,0.9)",
+      backgroundColor: "#1e2c32",
+    },
+    [theme.breakpoints.down("sm")]: {
+      height: "35px",
+    },
+  },
+  redBtn: {
+    width: "max-content",
+    backgroundColor: "#36312E",
+    color: "#FFFF",
+    height: "41px",
+    borderRadius: "0%",
+    textTransform: "initial",
+    "&:hover": {
+      backgroundColor: "#211e1c",
     },
     [theme.breakpoints.down("sm")]: {
       height: "35px",

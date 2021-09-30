@@ -4,7 +4,7 @@ import { Button } from '@material-ui/core';
 // css
 import useStyles from "./ButtonCompStyle";
 
-const ButtonComp = ({ text, style, className, white, onClick, type }) => {
+const ButtonComp = ({ text, style, className, white, red, onClick, type }) => {
 
   const classes = useStyles();
 
@@ -14,7 +14,9 @@ const ButtonComp = ({ text, style, className, white, onClick, type }) => {
       style={style}
       type={type}
       onClick={onClick}
-      className={white ? `${classes.whiteBtn} ${className} poppins-regular` : `${classes.greenBtn} ${className} poppins-regular`}>
+      className={white ? `${classes.whiteBtn} ${className} poppins-regular`
+        : red ? `${classes.redBtn} ${className} poppins-regular`
+          : `${classes.greenBtn} ${className} poppins-regular`}>
       {text}
     </Button>
   )

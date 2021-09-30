@@ -26,7 +26,7 @@ const FourthSectionComp = () => {
         </div>
         <div className={classes.btnDiv}>
           <Link target="_blank" className={classes.link} href="https://lynnhardin.s3.us-west-1.amazonaws.com/Grading+Made+Easier.pdf">
-            <ButtonComp className={`${classes.btn} poppins-regular`} text="Download the guide" />
+            <ButtonComp red className={`${classes.btn} poppins-regular`} text="Download the guide" />
           </Link>
         </div>
       </div>
