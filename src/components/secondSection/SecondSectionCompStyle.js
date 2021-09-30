@@ -65,7 +65,6 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("sm")]: {
       display: "block",
       width: "205px",
-      display: "flex",
       margin: "8% auto",
       paddingTop: "initial",
     },
