@@ -62,7 +62,7 @@ const useStyles = makeStyles((theme) => ({
   subHeading: {
     color: "#FFFFFF",
     // fontSize: "calc(100% + 0.7vw + 0.6vh )",
-    fontSize: "28px",
+    fontSize: "32px",
     lineHeight: "1.2",
     margin: "5% 0 2% 0",
     [theme.breakpoints.down("sm")]: {
