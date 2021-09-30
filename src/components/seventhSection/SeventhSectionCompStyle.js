@@ -5,7 +5,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     backgroundImage: `url(${seventhSectionBg})`,
     backgroundSize: "100% 100%",
-    height: "59vh",
+    height: "63vh",
     width: "100%",
     marginTop: "11%",
     backgroundRepeat: "no-repeat",

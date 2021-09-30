@@ -33,23 +33,24 @@ const useStyles = makeStyles((theme) => ({
   textField: {
     width: "25%",
     paddingBottom: "10px",
-    [theme.breakpoints.down("sm")]: {
-      width: "65%",
-    },
-    "& .MuiOutlinedInput-notchedOutline": {
-      border: "1px solid #2D424A",
-      borderRadius: "0%",
-    },
-    "& .MuiInputLabel-outlined.MuiInputLabel-marginDense": {
-      color: "#C4C4C4",
-    },
-    "& .MuiOutlinedInput-root": {
-      backgroundColor: "#FFFFFF",
-    },
-    "& .Mui-focused": {
-      // border: "1px solid #2D424A",
-      // borderColor:'red !important'
-    },
+    // [theme.breakpoints.down("sm")]: {
+    //   width: "65%",
+    // },
+    // "& .MuiOutlinedInput-notchedOutline": {
+    //   border: "1px solid #2D424A",
+    //   borderRadius: "0%",
+    // },
+    // "& .MuiInputLabel-outlined.MuiInputLabel-marginDense": {
+    //   color: "#C4C4C4",
+    // },
+    // "& .MuiOutlinedInput-root": {
+    //   backgroundColor: "#FFFFFF",
+    // },
+    // "& .Mui-focused": {
+      // border: "1px solid red",
+      // borderColor:'red !important',
+      // outline:'red'
+    // },
   },
 }));
 

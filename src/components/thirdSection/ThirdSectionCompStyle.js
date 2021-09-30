@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: "100% 100%",
     height: "131vh",
     width: "100%",
-    paddingTop: "15%",
+    paddingTop: "17%",
     backgroundRepeat: "no-repeat",
     position: "absolute",
     [theme.breakpoints.down("sm")]: {
@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
       paddingTop: "21%",
     },
     [theme.breakpoints.up(500)]: {
-      paddingTop: "14%",
+      paddingTop: "17%",
     },
   },
   mainContent: {
@@ -53,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#FFFFFF",
     fontSize: "calc(100% + 1.6vw + 1.6vh )",
     lineHeight: "1.1",
-    marginBottom: "10%",
+    marginBottom: "5%",
     [theme.breakpoints.down("sm")]: {
       fontSize: "calc(100% + 1.1vw + 1.1vh )",
       marginBottom: "10%",

@@ -36,10 +36,81 @@
   height: 4400px;
   width: 100%;
   /* background-repeat: no-repeat; */
-  margin-top: 23%;
+  margin-top: 21%;
 }
+
+.material-textfield {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+label {
+  position: absolute;
+  font-size: 1rem;
+  left: 0;
+  top: 40%;
+  transform: translateY(-50%);
+  background-color: white;
+  color: #c4c4c4;
+  padding: 0 0.3rem;
+  margin: 0 0.5rem;
+  transition: 0.1s ease-out;
+  transform-origin: left top;
+  pointer-events: none;
+}
+.text-label {
+  position: absolute;
+  font-size: 1rem;
+  left: 0;
+  top: 15%;
+  transform: translateY(-50%);
+  background-color: white;
+  color: #c4c4c4;
+  padding: 0 0.3rem;
+  margin: 0 0.5rem;
+  transition: 0.1s ease-out;
+  transform-origin: left top;
+  pointer-events: none;
+}
+input {
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid #2d424a;
+  padding: 1rem 0.7rem;
+  color: #2d424a;
+  transition: 0.1s ease-out;
+  width: 484px;
+}
+textarea {
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid #2d424a;
+  padding: 1rem 0.7rem;
+  color: #2d424a;
+  transition: 0.1s ease-out;
+  width: 484px;
+}
+input:focus {
+  border-color: #2d424a;
+}
+input:focus + label {
+  color: #2d424a;
+  top: 0;
+  transform: translateY(-50%) scale(0.9);
+}
+input:not(:placeholder-shown) + label {
+  top: 0;
+  transform: translateY(-50%) scale(0.9);
+}
+
 @media screen and (max-width: 480px) {
   .white-pattern-bg {
     height: 3720px;
+  }
+  input {
+    width: 250px;
+  }
+  textarea {
+    width: 250px;
   }
 }

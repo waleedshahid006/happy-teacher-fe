@@ -36,41 +36,24 @@ const EighthSectionComp = () => {
             <br /> parent simply fill out the form or email <span className="poppins-bold">lynn@lynnhardin.com </span> and I’ll get back to you.
           </Typography>
           <br />
-          <TextField
-            variant="outlined"
-            label="Name"
-            name="name"
-            className={classes.textField}
-            onChange={onChangeHandler}
-            required
-            size="small" />
-          <TextField
-            variant="outlined"
-            label="Email"
-            name="email"
-            onChange={onChangeHandler}
-            type="email"
-            required
-            className={classes.textField}
-            size="small" />
-          <TextField
-            variant="outlined"
-            label="Subject"
-            onChange={onChangeHandler}
-            name="subject"
-            required
-            className={classes.textField}
-            size="small" />
-          <TextField
-            variant="outlined"
-            label="Message"
-            onChange={onChangeHandler}
-            name="message"
-            size="small"
-            required
-            className={classes.textField}
-            multiline
-            rows={6} /><br />
+          <div class="material-textfield">
+            <input required placeholder=" " onChange={onChangeHandler} type="text" />
+            <label>Name</label>
+          </div>
+          <div class="material-textfield">
+            <input required placeholder=" " onChange={onChangeHandler} type="text" />
+            <label>Email</label>
+          </div>
+          <div class="material-textfield">
+            <input required placeholder=" " onChange={onChangeHandler} type="text" />
+            <label>Subject</label>
+          </div>
+          <div class="material-textfield">
+            <textarea required onChange={onChangeHandler} rows="5"> </textarea>
+            {/* <input required placeholder=" " onChange={onChangeHandler} type="text" /> */}
+            <label className="text-label">Message</label>
+          </div>
+          <br />
           <ButtonComp
             style={{ padding: '10px 40px' }}
             text="Submit"
