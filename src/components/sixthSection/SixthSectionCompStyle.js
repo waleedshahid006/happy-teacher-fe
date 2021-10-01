@@ -12,8 +12,6 @@ const useStyles = makeStyles((theme) => ({
     backgroundRepeat: "no-repeat",
     [theme.breakpoints.down("sm")]: {
       backgroundImage: `url(${sixthSectionBgMob})`,
-      // height: "137%",
-      // paddingTop: "35%",
     },
   },
   flexDiv: {

@@ -52,11 +52,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   rightContentDiv: {
-    // marginLeft: "42%",
     width: "fit-content",
-    // [theme.breakpoints.down("sm")]: {
-    //   marginLeft: "0%",
-    // },
   },
   gridCont: {
     marginTop: "4%",

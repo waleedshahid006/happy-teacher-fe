@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // material ui
-import { Typography } from '@material-ui/core';
+import { Typography, CircularProgress } from '@material-ui/core';
 // reuseable components
 import ButtonComp from '../../shared/button/ButtonComp';
 // css
@@ -12,12 +12,17 @@ const EighthSectionComp = () => {
 
   const classes = useStyles();
   const [contactDetails, setContactDetails] = useState();
+  const [btnLoader, setBtnLoader] = useState(false);
 
   const onSubmitHandler = (e) => {
+    setBtnLoader(true);
     e.preventDefault();
     console.log(contactDetails);
     axios.post("https://happy-teacher-bk.herokuapp.com/api/user/contact-details", contactDetails)
-      .then((resp) => alert(resp.data.message))
+      .then((resp) => {
+        setBtnLoader(false);
+        alert(resp.data.message);
+      })
     document.getElementById("contactForm").reset();
   }
 
@@ -38,26 +43,22 @@ const EighthSectionComp = () => {
           <br />
           <div class="material-textfield">
             <input required placeholder="Name" name="name" onChange={onChangeHandler} type="text" />
-            {/* <label>Name</label> */}
           </div>
           <div class="material-textfield">
-            <input required placeholder="Email" name="email" onChange={onChangeHandler} type="text" />
-            {/* <label>Email</label> */}
+            <input required placeholder="Email" name="email" onChange={onChangeHandler} type="email" />
           </div>
           <div class="material-textfield">
             <input required placeholder="Subject" name="subject" onChange={onChangeHandler} type="text" />
-            {/* <label>Subject</label> */}
           </div>
           <div class="material-textfield">
             <textarea required placeholder="Message" name="message" onChange={onChangeHandler} rows="5" />
-            {/* <input required placeholder=" "  onChange={onChangeHandler} type="text" /> */}
-            {/* <label className="text-label">Message</label> */}
           </div>
           <br />
           <ButtonComp
             style={{ padding: '10px 40px' }}
-            text="Submit"
+            text={[btnLoader ? <CircularProgress color="secondary" size={20} /> : "Submit"]}
             type="submit"
+            disabled={btnLoader}
           />
         </div>
       </form>

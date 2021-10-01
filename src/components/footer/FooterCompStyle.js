@@ -52,9 +52,6 @@ const useStyles = makeStyles((theme) => ({
     color: "#ffffff",
     fontSize: "calc(100% + 0.1vw + 0.1vh )",
     margin: "10% 0 0 50%",
-    // "&:hover": {
-    //   textDecoration: "underline",
-    // },
     [theme.breakpoints.down("sm")]: {
       margin: "0% 0 0 0%",
     },
@@ -63,9 +60,6 @@ const useStyles = makeStyles((theme) => ({
     color: "#ffffff",
     fontSize: "calc(100% + 0.1vw + 0.1vh )",
     margin: "10% 0 0 10%",
-    // "&:hover": {
-    //   textDecoration: "underline",
-    // },
     [theme.breakpoints.down("sm")]: {
       margin: "0% 0 0 0%",
     },
