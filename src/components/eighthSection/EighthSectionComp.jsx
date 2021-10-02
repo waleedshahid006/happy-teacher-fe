@@ -56,7 +56,7 @@ const EighthSectionComp = () => {
           <br />
           <ButtonComp
             style={{ padding: '10px 40px' }}
-            text={[btnLoader ? <CircularProgress color="secondary" size={20} /> : "Submit"]}
+            text={[btnLoader ? <CircularProgress style={{ color: '#FFFFFF' }} size={20} /> : "Submit"]}
             type="submit"
             disabled={btnLoader}
           />

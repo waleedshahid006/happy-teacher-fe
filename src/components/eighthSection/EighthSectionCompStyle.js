@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
     height: "88vh",
     width: "100%",
     backgroundRepeat: "no-repeat",
-    paddingTop: "13%",
+    paddingTop: "14%",
     [theme.breakpoints.down("sm")]: {
       backgroundImage: `url(${eighthSectionBgMob})`,
       backgroundSize: "initial",
